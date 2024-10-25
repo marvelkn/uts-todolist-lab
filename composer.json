@@ -1,0 +1,19 @@
+{
+    "name": "marvel/uts_lab",
+    "description": "UTS LAB WEB PROG",
+    "autoload": {
+        "psr-4": {
+            "Marvel\\UtsLab\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Marvel Kevin Nathanael",
+            "email": "marvel.kevin@student.umn.ac.id"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "phpmailer/phpmailer": "dev-master"
+    }
+}

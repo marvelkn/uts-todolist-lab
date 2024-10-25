@@ -1,0 +1,143 @@
+/* General Styles */
+body {
+    background-color: #f8f9fa;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #343a40;
+}
+
+/* Navbar Links */
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Forms */
+input[type="text"], input[type="email"], input[type="password"], input[type="file"] {
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+    width: 100%;
+}
+
+input[type="submit"], button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"].btn-primary, button.btn-primary {
+    background-color: #0d6efd;
+    color: white;
+}
+
+input[type="submit"]:hover, button:hover {
+    background-color: #0056b3;
+}
+
+/* List Styles */
+ul.list-group {
+    margin-top: 20px;
+}
+
+ul.list-group li {
+    padding: 15px;
+    background-color: #ffffff;
+    border: 1px solid #dee2e6;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+/* Profile Picture Styling */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+
+/* Alerts and Feedback */
+.alert {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.alert-warning {
+    background-color: #ffc107;
+    color: #212529;
+}
+
+.alert-info {
+    background-color: #17a2b8;
+    color: white;
+}
+
+/* Buttons */
+.btn {
+    display: inline-block;
+    margin-top: 10px;
+    transition: all 0.3s;
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+    color: white;
+}
+
+.btn-secondary:hover {
+    background-color: #5a6268;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    color: white;
+}
+
+.btn-danger:hover {
+    background-color: #c82333;
+}
+
+/* Footer Links */
+footer a {
+    text-decoration: none;
+    color: #0d6efd;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Modal Styling */
+.modal-header, .modal-footer {
+    border: none;
+    background-color: #f8f9fa;
+}
+
+/* Custom Checkbox Styling */
+input[type="checkbox"] {
+    transform: scale(1.3);
+    margin-right: 10px;
+}
+
+/* Task Completion Styling */
+.line-through {
+    text-decoration: line-through;
+    color: #6c757d;
+}
