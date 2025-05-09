@@ -1310,7 +1310,7 @@ $tasks = $stmt->get_result();
                     <p class="dev-role">Lead Developer</p>
                     <span class="dev-specialty">Full Stack Specialist</span>
                     <div class="social-links">
-                        <a href="https://github.com/MarvelKevin" target="_blank" class="social-link github">
+                        <a href="https://github.com/marvelkn/uts-todolist-lab" target="_blank" class="social-link github">
                             <i class="fab fa-github"></i>
                         </a>
                         <a href="https://www.instagram.com/marvelkn/" target="_blank" class="social-link instagram">
